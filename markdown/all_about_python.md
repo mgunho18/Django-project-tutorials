@@ -13,7 +13,7 @@
 > 컴프리헨션(comprehension)
 - 파이써닉한 코드를 작성하는 방법 중 하나
 - 하나 이상의 이터레이터(iterator)로부터 파이썬의 자료구조를 만드는 compact한 방법 
-- ex) ```list = [x for x in range(10) if x%2==0]```
+- ex) ```list = [x for x in range(10) if x % 2==0]```
 
 >함수 
 - Python에서 함수는 1급 객체
@@ -24,7 +24,7 @@
   ##### * 함수의 구성 요소
   - 순서 -> 인자, 위치인자, 키워드인자
   - 위치인자 : *args, 함수의 매개변수를 튜플로 묶는다, 인자 이름을 지정하지 않고 차례대로 나열
-  - 키워드인자 : **kwargs, 함수의 매개변수를 딕셔너리로 묶는다, 인자 이름을 지정하고 차례대로 나 
+  - 키워드인자 : **kwargs, 함수의 매개변수를 딕셔너리로 묶는다, 인자 이름을 지정하고 차례대로 나열 
  
 > 모듈과 패키지
 - 모듈은 파이썬 파일 
@@ -63,3 +63,4 @@ def fib():
     prev, curr = curr, prev + curr
 ``` 
 
+코드 예시 출처 : https://learnit-study.slack.com/messages/GA34EU8UA/ 
