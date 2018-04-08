@@ -63,4 +63,4 @@ def fib():
     prev, curr = curr, prev + curr
 ``` 
 
-코드 예시 출처 : https://learnit-study.slack.com/messages/GA34EU8UA/ 
+코드 예시 출처 : learnit-study 학습 가이드  
