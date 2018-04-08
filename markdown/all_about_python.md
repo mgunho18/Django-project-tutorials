@@ -55,7 +55,7 @@
 
 > Generator
 - yield문이 있으면 Generator
--lazy factory로서 값 생산을 최후의 순간까지 연기해 실행 시 메모리를 줄이는 효과 
+- lazy factory로서 값 생산을 최후의 순간까지 연기해 실행 시 메모리를 줄이는 효과 
 ```
 def fib():     
   prev, curr = 0, 1     
